@@ -8,20 +8,10 @@ function calculateAverage(numbers)
     const average = sum / numbers.length;
     return average;
     }
-  
+  // Example usage:
   const numbers = [10, 29, 45, 90, 5];
   const avg = calculateAverage(numbers);
   console.log(`The average is: ${avg}`);
- //task2//
-  const values = [10, 20, 30, 40, 50];
-
-const result = values.map((value, index) => {
-  return `Value at index ${index} is ${value}`;
-});
-
-result.forEach((message) => {
-  console.log(message);
-});
 
   /*task3: Write an object of person with key values as below and print the values of the object not keys
     - name, age, country, semester, cms
@@ -29,16 +19,16 @@ result.forEach((message) => {
     contactNumber2 & email2, contactNumber3 & email3*/
     // Create a person object with the specified key-value pairs.
 const person = {
-    name: "Yasmine",
+    name: "Aasia Salahuddin",
     age: 21,
     country: "Pakistan",
     semester: "Spring 2023",
     cms: "12345",
     details: {
       contactNumber1: "123-456-7890",
-      email1: "yasmine@gmail.com",
+      email1: "Aasia@gmail.com",
       contactNumber2: "987-654-3210",
-      email2: "yasminerehman@yahoo.com",
+      email2: "AasiaSalahuddin@yahoo.com",
     }
   };
   
@@ -53,5 +43,13 @@ const person = {
   console.log("Contact Number 2: " + person.details.contactNumber2);
   console.log("Email 2: " + person.details.email2);
 
- 
-  
+  //task2//
+  const values = [10, 20, 30, 40, 50];
+
+const result = values.map((value, index) => {
+  return `Value at index ${index} is ${value}`;
+});
+
+result.forEach((message) => {
+  console.log(message);
+});
