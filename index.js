@@ -19,16 +19,16 @@ function calculateAverage(numbers)
     contactNumber2 & email2, contactNumber3 & email3*/
     // Create a person object with the specified key-value pairs.
 const person = {
-    name: "Aasia Salahuddin",
+    name: "Yasmine",
     age: 21,
     country: "Pakistan",
     semester: "Spring 2023",
     cms: "12345",
     details: {
       contactNumber1: "123-456-7890",
-      email1: "Aasia@gmail.com",
+      email1: "Yasmine@gmail.com",
       contactNumber2: "987-654-3210",
-      email2: "AasiaSalahuddin@yahoo.com",
+      email2: "Yasmine@yahoo.com",
     }
   };
   
